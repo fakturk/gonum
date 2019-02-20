@@ -81,6 +81,8 @@ const (
 	kLT1          = "lapack: k < 1"
 	mLT0          = "lapack: m < 0"
 	mLTN          = "lapack: m < n"
+	nGTM          = "lapack: n > m"
+	mGTN          = "lapack: m > n"
 	nanScale      = "lapack: NaN scale factor"
 	negDimension  = "lapack: negative matrix dimension"
 	negZ          = "lapack: negative z value"
